@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SMV – Shaping My Vision · BNE und SMV · Fachvortrag und Workshop</title>
+<meta name="description" content="Begleitseite zum Fachvortrag mit Workshop SMV und BNE: Folien, Links, Impulsfragen und Werkzeuge zur Entscheidungsfindung.">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<style>
+/* Farben und Schrift nach den Vorlagen „Arbeitsblatt / Leistungsnachweis SBSZ Bamberg ET“ */
+:root{
+ --blau:#005CA9;--blau-hell:#E8F0F9;--blau-linie:#C9D9EC;--blau-flaeche:#F2F6FB;--blau-zart:#DCE8F5;
+ --gruen-logo:#94C01C;--gelb-logo:#FCCC03;
+ --gruen:#2E8B22;--gruen-hell:#EAF5E6;
+ --gelb-hell:#FFF7D6;
+ --rot:#C62828;--rot-hell:#FDECEA;
+ --grau:#6B6B6B;--grau-hell:#9A9A9A;--linie:#C8C8C8;--formel:#F3F3F3;
+ --text:#1E1E1E;--bg:#F7F8FA
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Calibri,Carlito,"Segoe UI",Arial,sans-serif;font-size:16px;background:var(--bg);color:var(--text);line-height:1.45}
+a{color:var(--blau)}
+
+/* Kopf wie in der Vorlage: Logo · Schulname · blaues Etikett, darunter Farbstreifen */
+header{background:#fff;position:sticky;top:0;z-index:5;box-shadow:0 1px 0 var(--linie)}
+.kopf{max-width:1050px;margin:0 auto;padding:10px 18px 0;display:flex;align-items:center;gap:12px}
+.kopf img{height:46px;width:auto;display:block}
+.kopf .schule{flex:1;min-width:0}
+.kopf .schule b{display:block;color:var(--blau);font-size:17px;line-height:1.2}
+.kopf .schule span{display:block;color:var(--grau);font-size:13px}
+.kopf .etikett{background:var(--blau);color:#fff;text-align:center;padding:7px 18px;min-width:190px}
+.kopf .etikett small{display:block;font-weight:bold;letter-spacing:.12em;font-size:12px}
+.kopf .etikett span{display:block;color:var(--blau-zart);font-size:13px}
+.kopf .etikett span b{color:#fff;font-size:17px}
+.streifen{max-width:1050px;margin:8px auto 0;padding:0 18px}
+.streifen div{height:5px;background:linear-gradient(90deg,var(--blau) 0 72%,var(--gruen-logo) 72% 90%,var(--gelb-logo) 90% 100%)}
+
+nav{max-width:1050px;margin:0 auto;display:flex;gap:6px;flex-wrap:wrap;padding:10px 18px}
+nav button{border:1px solid var(--blau-linie);background:#fff;color:var(--text);border-radius:4px;padding:6px 13px;cursor:pointer;font:inherit;font-size:15px}
+nav button:hover{background:var(--blau-flaeche)}
+nav button.aktiv{background:var(--blau);color:#fff;border-color:var(--blau)}
+
+main{max-width:1050px;margin:0 auto;padding:18px}
+/* Überschriften wie „Thema“ / „Überschrift 1“ / „Abschnitt“ */
+h2{color:var(--blau);margin:4px 0 12px;font-size:24px;padding-bottom:4px;border-bottom:1px solid var(--blau-linie)}
+h3{margin:16px 0 8px;font-size:17px;color:var(--text)}
+.karte{background:#fff;border:1px solid var(--blau-linie);border-radius:4px;padding:18px;margin-bottom:14px}
+
+/* Kästen wie in der Vorlage */
+.hinweis,.info{background:var(--blau-hell);border-left:6px solid var(--blau);padding:10px 14px;font-size:15px}
+.merke{background:var(--gelb-hell);border-left:6px solid var(--gelb-logo);padding:10px 14px;margin:10px 0}
+.challenge{border-left:6px solid var(--gelb-logo)}
+.achtung{background:var(--rot-hell);border-left:6px solid var(--rot);padding:10px 14px}
+
+.raster{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.station{background:#fff;border:1px solid var(--blau-linie);border-top:4px solid var(--blau);border-radius:4px;padding:14px;cursor:pointer;position:relative;transition:transform .1s,box-shadow .1s}
+.station:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,92,169,.15)}
+.station.ok{border-top-color:var(--gruen-logo)}
+.station .icon{font-size:30px}
+.station h3{margin:6px 0 4px;color:var(--blau)}
+.station p{margin:0;font-size:14px;color:var(--grau)}
+.balken{height:8px;background:var(--blau-hell);overflow:hidden;margin-top:10px}
+.balken div{height:100%;background:var(--gruen-logo)}
+.status{font-size:13px;margin-top:6px;color:var(--grau)}
+.badge{position:absolute;top:10px;right:10px;font-size:12px;padding:2px 8px;background:var(--blau-hell);color:var(--blau)}
+.badge.ok{background:var(--gruen);color:#fff}
+
+.tabs{display:flex;gap:6px;margin:6px 0 14px;flex-wrap:wrap;border-bottom:1px solid var(--blau-linie)}
+.tabs button{border:none;border-bottom:3px solid transparent;background:none;padding:8px 10px;cursor:pointer;font:inherit;font-size:15px;color:var(--text);margin-bottom:-1px}
+.tabs button.aktiv{border-color:var(--blau);color:var(--blau);font-weight:bold}
+
+.btn{background:var(--blau);color:#fff;border:none;border-radius:4px;padding:9px 16px;cursor:pointer;font:inherit;font-size:15px}
+.btn:hover{background:#004A8A}
+.btn.zweit{background:#fff;color:var(--blau);border:1px solid var(--blau)}
+.btn.zweit:hover{background:var(--blau-flaeche)}
+.btn.gruen{background:var(--gruen)}
+.btn:disabled{opacity:.5;cursor:default}
+
+.flip{perspective:1000px;height:220px;margin:10px 0}
+.flip .innen{position:relative;width:100%;height:100%;transition:transform .45s;transform-style:preserve-3d;cursor:pointer}
+.flip.um .innen{transform:rotateY(180deg)}
+.seite{position:absolute;inset:0;backface-visibility:hidden;border:1px solid var(--blau-linie);border-left:6px solid var(--blau);background:var(--blau-flaeche);display:flex;align-items:center;justify-content:center;padding:20px;text-align:center;font-size:19px}
+.seite.rueck{transform:rotateY(180deg);background:var(--gruen-hell);border-color:var(--gruen);color:var(--gruen);font-size:17px}
+.fach{display:flex;gap:8px;margin:8px 0;font-size:14px;flex-wrap:wrap}
+.fach span{padding:3px 10px;background:var(--blau-hell)}
+
+.frage{font-size:18px;margin:6px 0 10px}
+.optionen label{display:block;border:1px solid var(--blau-linie);padding:9px 12px;margin:6px 0;cursor:pointer;background:#fff}
+.optionen label:hover{background:var(--blau-flaeche)}
+.optionen label.richtig{background:var(--gruen-hell);border-color:var(--gruen)}
+.optionen label.falsch{background:var(--rot-hell);border-color:var(--rot)}
+input[type=text],select{font:inherit;font-size:16px;padding:7px 9px;border:1px solid var(--grau-hell);border-radius:3px}
+input[type=text]:focus,select:focus{outline:2px solid var(--blau);outline-offset:1px}
+#eing,#treing{width:150px}
+.feedback{margin-top:10px;padding:10px 14px;font-size:15px}
+.feedback.ok{background:var(--gruen-hell);border-left:6px solid var(--gruen)}
+.feedback.ok b{color:var(--gruen)}
+.feedback.nein{background:var(--rot-hell);border-left:6px solid var(--rot)}
+.zuord{display:grid;grid-template-columns:1fr 1fr;gap:8px;align-items:center;max-width:640px}
+.fortschritt{font-size:14px;color:var(--grau);margin-bottom:6px}
+
+/* Tabellen wie in der Vorlage: blauer Kopf, hellblaue Linien */
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{border:1px solid var(--blau-linie);padding:7px 8px;text-align:left;vertical-align:top}
+th{background:var(--blau);color:#fff}
+.woche.erledigt{background:var(--gruen-hell)}
+.ergebnis{font-size:24px;font-weight:bold;color:var(--blau)}
+.klein{font-size:14px;color:var(--grau)}
+.formel{font-family:"Cambria Math",Georgia,serif;font-size:17px;background:var(--formel);padding:8px;text-align:center}
+
+/* Fußzeile wie in der Vorlage */
+footer{max-width:1050px;margin:20px auto;padding:6px 18px 0;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--grau)}
+footer .linie{border-top:1px solid var(--linie);width:100%}
+svg text{font-family:Calibri,Carlito,Arial,sans-serif}
+@media(max-width:640px){
+ header{position:static}
+ .kopf .etikett{display:none}
+ .kopf .schule b{font-size:15px}
+ .zuord{grid-template-columns:1fr}
+}
+@media print{header{position:static}nav,.btn{display:none}}
+/* ---------- Ergänzungen für die Workshop-Seite ---------- */
+.lead{font-size:17px}
+.station .nr{font-size:12px;color:var(--grau);margin-top:6px}
+.station .stern{position:absolute;top:10px;left:auto;right:10px;font-size:18px;color:var(--gelb-logo)}
+.station.besucht{border-top-color:var(--gruen-logo)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.chip{font-size:12px;padding:2px 8px;background:var(--blau-hell);color:var(--blau)}
+.chip.ok{background:var(--gruen-hell);color:var(--gruen)}
+.chip.stern{background:var(--gelb-hell);color:#8a6d00}
+.zweispaltig{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:14px;align-items:start}
+@media(max-width:860px){.zweispaltig{grid-template-columns:1fr}}
+/* Folienbetrachter */
+.viewer{background:#fff;border:1px solid var(--blau-linie)}
+.viewer .buehne{position:relative;background:#f0f2f5;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;cursor:zoom-in}
+.viewer .buehne img{max-width:100%;max-height:100%;display:block}
+.viewer .leiste{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 10px;border-top:1px solid var(--blau-linie)}
+.viewer .leiste .klein{flex:1;text-align:center}
+.viewer .text{padding:8px 12px;font-size:14px;border-top:1px solid var(--blau-linie);background:var(--blau-flaeche);min-height:20px}
+.thumbs{display:flex;gap:6px;overflow-x:auto;padding:8px;border-top:1px solid var(--blau-linie)}
+.thumbs button{border:2px solid transparent;padding:0;background:none;cursor:pointer;flex:0 0 auto;position:relative}
+.thumbs button.aktiv{border-color:var(--blau)}
+.thumbs img{width:112px;height:63px;object-fit:cover;display:block}
+.thumbs span{position:absolute;left:2px;top:2px;background:rgba(0,92,169,.85);color:#fff;font-size:10px;padding:0 4px}
+.kapitel{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 8px}
+.kapitel button{border:1px solid var(--blau-linie);background:#fff;padding:4px 10px;font:inherit;font-size:13px;cursor:pointer;border-radius:3px}
+.kapitel button.aktiv{background:var(--blau);color:#fff;border-color:var(--blau)}
+.lightbox{position:fixed;inset:0;background:rgba(10,20,35,.92);z-index:50;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;padding:16px}
+.lightbox img{max-width:96vw;max-height:84vh;background:#fff}
+.lightbox .zeile{display:flex;gap:10px;align-items:center;color:#fff}
+.lightbox .btn{background:#fff;color:var(--blau)}
+/* Werkzeuge */
+.werkzeug h3{margin-top:4px;color:var(--blau)}
+.werkzeug label.feld{display:block;font-size:14px;font-weight:bold;margin:10px 0 4px}
+textarea{width:100%;min-height:70px;font:inherit;font-size:15px;padding:7px 9px;border:1px solid var(--grau-hell);border-radius:3px;resize:vertical}
+textarea:focus{outline:2px solid var(--blau);outline-offset:1px}
+.sterne{display:inline-flex;gap:2px}
+.sterne button{background:none;border:none;font-size:24px;line-height:1;cursor:pointer;color:#cfd6df;padding:0 1px}
+.sterne button.an{color:var(--gelb-logo)}
+.wahl{display:inline-flex;gap:4px;flex-wrap:wrap}
+.wahl button{border:1px solid var(--blau-linie);background:#fff;padding:4px 10px;font:inherit;font-size:14px;cursor:pointer;border-radius:3px}
+.wahl button.an{background:var(--blau);color:#fff;border-color:var(--blau)}
+.bewertung{display:grid;grid-template-columns:auto 1fr;gap:8px 12px;align-items:center;font-size:15px}
+.gespeichert{font-size:12px;color:var(--gruen);min-height:16px}
+.impulse li{margin:4px 0}
+.links li{margin:5px 0}
+.links a{word-break:break-word}
+.video{position:relative;aspect-ratio:16/9;background:#1E1E1E;display:flex;align-items:center;justify-content:center;color:#fff;text-align:center;padding:20px}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.matrix svg{width:100%;max-width:560px;height:auto;background:#fff;border:1px solid var(--blau-linie)}
+.timer{font-size:46px;font-weight:bold;color:var(--blau);font-variant-numeric:tabular-nums}
+.phase{border-left:6px solid var(--blau-linie);padding:8px 12px;margin:8px 0;background:#fff;border-top:1px solid var(--blau-linie);border-right:1px solid var(--blau-linie);border-bottom:1px solid var(--blau-linie)}
+.phase.aktiv{border-left-color:var(--gelb-logo);background:var(--gelb-hell)}
+.kontakt{font-size:16px;line-height:1.6}
+@media print{
+ header,nav,footer,.btn,.noprint,.viewer,.thumbs{display:none!important}
+ body{background:#fff}
+ .karte{border:none;padding:0}
+ .druckkopf{display:block!important}
+}
+.druckkopf{display:none;border-bottom:3px solid var(--blau);margin-bottom:10px;padding-bottom:6px}
+</style>
+</head>
+<body>
+<header>
+ <div class="kopf">
+  <img src="data:image/png;base64,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" alt="Logo SBSZ Bamberg">
+  <div class="schule"><b>Staatliches Berufliches Schulzentrum Bamberg</b><span>SMV und BNE · Fachvortrag und Workshop · Thomas Russ, BNE-Team Oberfranken</span></div>
+  <div class="etikett"><small>WORKSHOP</small><span><b>Shaping My Vision</b></span></div>
+ </div>
+ <div class="streifen"><div></div></div>
+ <nav id="nav"></nav>
+</header>
+<main id="app"></main>
+<footer><div class="linie"></div><span>SMV – Shaping My Vision · Thomas Russ, BNE-Team Oberfranken</span><span><a href="mailto:thomas.russ@sbsz-bamberg.de">thomas.russ@sbsz-bamberg.de</a></span></footer>
+
+<script>
+/* =========================================================
+   SMV – Shaping My Vision · Begleitseite zu Fachvortrag und Workshop
+   Thomas Russ, BNE-Team Oberfranken · SBSZ Bamberg
+   Notizen und Bewertungen werden nur lokal im Browser gespeichert.
+   ========================================================= */
+
+const FOLIENTEXT = {"6":"Maßnahmen/Zustände, die dafür sorgen, dass in Zukunft auch noch genug Ressourcen für alle da sind.","7":"Lebenswerte ZUKUNFT für alle in allen Bereichen: · ÖKOLOGISCH SOZIAL ÖKONOMISCH · → ZIELE (SDGs) als Richtschnur von den Vereinten Nationen (UN) entwickelt!","8":"Der gemeinsame Nenner · Klimaschule Bayern","9":"Der gemeinsame Nenner · Klimaschule Bayern · Kultur __FOLIENTEXTE__u0026 Bildung · Generationen-Gerechtigkeit · Gerechtigkeit weltweit · Markus Lenk – Netzwerk Schule und Museum in Bayern","10":"SACH- und METHODENKOMPETENZ SOZIALKOMPETENZ SELBSTKOMPETENZ · Gestaltungskompetenz erwerben, um aktiv an einer lebenswerten Zukunft für alle mitwirken zu können. · PARTIZIPATION, SELBST- WIRKSAMKEIT","11":"„Bildung für nachhaltige Entwicklung will Menschen zu aktivem Handeln und zukunftsfähigem Denken befähigen.“","12":"selbst aktiv werden!","14":"Fachbereiche am SBSZ Agrarwirtschaft/Gärtner/Floristen Bau- und Holztechnik Elektrotechnik I-III Metalltechnik I-III · Bamberger Modell","15":"Einstieg in die BNE aus dem jeweiligen fachlichen Hintergrund der Schülerinnen und Schüler Identifizierung von inhaltlichen Schnittstellen in den jeweiligen Fachlehrplänen Projektierung der Inhalte und Nutzbarmachung mit dem Hintergrund der Bildung für Nachhaltige Entwicklung · Bamberger Modell","20":"Patenschaft über 62 Bäume","33":"Vollautomatische Honigabfüllung Auszubildende konzipieren, konstruieren und programmieren eine vollautomatische Honigabfüllung. Schnittstellen zum Fachlehrplan Elektronik (Elektromotoren, Sensorik, Energieversorgung) Mechanik (CAD __FOLIENTEXTE__u0026 3D-Druck) Programmierung (Arduino Uno)","48":"Bamberger Modell Nachhaltige Kohlenstoffkreisläufe gestalten „Terra preta do indio“ – „der schwarze Boden der Indianer“","49":"Bamberger Modell Nachhaltige Kohlenstoffkreisläufe gestalten „Terra preta do indio“ – „der schwarze Boden der Indianer“ · Ziel: signifikante Reduzierung der Treibhausgasemissionen Flüchtiger Kohlenstoff in Feststoff umwandeln Darüber hinaus kann die dabei freiwerdende Wärmeenergie zum Heizen von Räumen und zur Stromerzeugung genutzt werden.","57":"Die Dienstleistung","63":"Energiekisten „Strom sparen“ __FOLIENTEXTE__u0026 „Fahrradwerkstatt Bikekitchen“ (Bayerisches Staatsministerium für Wirtschaft, Landesentwicklung und Energie) Verkauf von ungenutztem Inventar Vertrieb Smart Tiny House","83":"Sammeln von NH/HH-Sicherungen","84":"HandyAktion Bayern – Wir sind Sammelzentrum! · Alte oder kaputte Smartphones können bei uns im Sammelzentrum abgegeben werden – ein einfacher und sinnvoller Beitrag zu nachhaltigem Ressourceneinsatz und zum Schutz der Umwelt.","85":"Dein Smartphone – Eine Rohstoffkatastrophe?","86":"Projekt Schulhofträume der FOSBOS Coburg","87":"Inhalt · Der Weg zu unserem Schulhoftraum Der Ablauf des Projekts Das Konzept mit einzelnen Teilprojekten","88":"Status Quo: Pausenhof der FOSBOS Coburg","89":"Graues Betonpflaster, kaum Aufenthaltsqualität · Ziel: Umgestaltung des gesamten Pausenhofes Problem: Der größte Teil gehört zur Feuerwehrzufahrt","90":"Uns steht nur dieses Areal zur Verfügung.","91":"Der Weg zu unserem Schulhoftraum · Januar 2021, kurz vor dem ersten Lockdown: Info über den Wettbewerb Schulhofträume (ausgerichtet vom Deutschen Kinderhilfswerk, Rossmann und Procter __FOLIENTEXTE__u0026 Gamble) Die Vorgaben: Flächenentsiegelung, Förderung von Insekten, Biodiversität, grünes Klassenzimmer, Recycling Hauptgewinn: 15.000,00 € · →Wir erarbeiten ein Konzept.","92":"Der Ablauf · Mitstreiter suchen! · Detailliertes Konzept inklusive Zeitplan und Finanzierung anhand der Vorgaben des DKHW ausarbeiten. · Schulleitung überzeugen, z. B. mittels anschaulicher PPT. · Schulamt, Grünflächenamt, SMV, Hausmeister mit ins Boot holen. · Schwierigkeiten ausräumen (Feuerwehrzufahrt, …). · Lehrereinsatztag: Vorziehen des pädagogischen Tages · Schüleraktionen planen und durchführen. · Zuverlässige, externe Partner suchen für alles, was nicht selbst gemacht werden kann.","93":"Mitstreiter · SMV Schulleitung, Schulamt Grünflächenamt Viele Klassen in flexiblen Projekttagen Externe Partner wie Schreiner, … Lehrer am Lehrereinsatztag","94":"Das Konzept: Einzelne Teilprojekte · Insektenhotel · Pergola mit Rankpflanzen, · Hochbeete, Schulbänke · Schulteich · Kräuterspirale · Blühwiese · Esspflanzen (Johannis-, Stachel-, Brom-, Goji-, Heidel- · und Himbeeren) · Obstbäume (Kirsch- · und Apfelbaum) · Totholzhaufen · Trockenmauer für · Reptilien · Vogelhäuschen · Igelquartier · Eichhörnchen- · futterstelle","95":"Der Lehrereinsatztag: · zieht den pädgogischen Tag (Buß- und Bettag) vor · Es gibt 4 Gruppen: - Insektengruppe - Teichgruppe - Kräutergruppe und - Futtergruppe","96":"Teilprojekt Insektenhotel am Lehrereinsatztag · Material: Alte Paletten Dach: Schreiner Füllungen Japanischer Knöterich Angebohrte Hartholzstücke Strohhalme Pappröhrchen Lehm …","97":"Details","99":"Bepflanzung des Daches","100":"Das fertige Insekten- · hotel","101":"Teilprojekt Schulteich: Die 11 Ta entsiegelt das Gelände","102":"Das Grünflächenamt übernimmt die Erdarbeiten · und das Ausbaggern des Teiches","103":"Fertigstellung und Bepflanzung des Schulteichs am Lehrereinsatztag","104":"Blühender Teich","105":"Es haben sich schon etliche Bewohner eingefunden · zum Beispiel Molche und …","106":"Libellen","107":"Teilprojekt Kräuterspirale am Lehrereinsatztag: Bepflanzung mit insektenfreundlichen Kräutern","108":"Baumaterial: Pflastersteine aus der Entsiegelung","109":"Teilprojekt grünes Klassenzimmer unter einer Pergola","111":"Zusammenbau der Sitzgarnituren im Rahmen des FPA- Unterrichts","113":"Teilprojekt Blühwiese: Krokuszwiebeln setzen als erste Nahrung für Insekten im Frühling","114":"Das Resultat","115":"Schülerprojekt Steinhaufen für Reptilien am Wandertag · Idee Nummer 1: · Recycelte Pflastersteine aus · der Entsiegelung sollten · neuen Lebensraum für · kleine Reptilien schaffen · Problem: · Fußgänger nehmen die · Steine mit","116":"Idee Nummer 2: Trockenmauer für Reptilien · Jetzt schaffen Steine · aus einem Abrisshaus · als Trockenmauer · neuen Lebensraum für · kleine Reptilien","117":"Teilprojekt Igelquartier · Hohlraum mittels Holzscheiten bauen Mit Reisig und Laub abdecken","118":"Teilprojekt Beeren- sträucher pflanzen","119":"Teilprojekt Nisthilfen für Vögel und Fledermäuse","120":"Teilprojekt Totholzhaufen · für Käfer, Pilze und andere Lebewesen","121":"Teilprojekt Eichhörnchen- und Vogelfutterstellen","122":"Teilprojekt Obstbäume · Apfelverkostung: Die Wahl fällt auf den Apfel Topaz","123":"Baumpflanzung mit dem Coburger OB Sauerteig im November 21","124":"Wunsch des Schulamtsleiters: Ein gemauerter Grill","125":"Hopfen und Brombeeren am Staketenzaun","126":"Selbst gezogene Eichensetzlinge als · Geschenk zur Einweihung für die · Gäste","127":"Finanzierungsquellen · Preisgelder von Gewinnen (Schulhofträume, Sparda macht´s möglich) Förderverein der Schule Vereine wie der Lions Club, Rotary Club, … Banken Industriebetriebe am Ort Geld- und Sachspenden von Schülern und Lehrern Sachspenden vom Grünflächenamt …","130":"Uns steht nur dieses Areal zur Verfügung.","131":"Vernetzungstag für Schülerinnen und Schüler","132":"Worum geht’s beim Vernetzungstag? · Ein ganztägiges Treffen für Schülerinnen und Schüler, die sich für Bildung für nachhaltige Entwicklung engagieren","133":"Die Idee · Ausgewählte Schülerinnen und Schüler, die sich im Sinne einer BNE engagieren, kommen einen Tag lang zusammen. · Inspiration __FOLIENTEXTE__u0026 Input · über die Schulgrenzen hinweg · Aktive Teilhabe · Schülerinnen und Schüler gestalten den Tag mit · Vernetzung · über die eigene Schule hinaus · Begleitung: Pro Schule begleiten eine bis zwei Lehrkräfte die Schülerinnen und Schüler.","134":"Der Tag in fünf Teilen · Begrüßung · und kurze Standortbestimmung · Gesprächsrunden · selbstorganisiert zu Themen, die die Schülerinnen und Schüler bewegen · Workshopschiene · Input und Arbeit in Workshops · Mittagessen · gemeinsam · Barcamps · zum Teilen erfolgreicher Praxisbeispiele · Parallel zu Teil 2: Die Lehrkräfte tauschen sich untereinander über für sie relevante Themen aus.","135":"Nach dem Tag und Material · Digitales Nachtreffen · Sinnvoll, um … · die Vernetzung weiterzuführen die geplanten Vorhaben nachhaltig zu stärken angestoßene Prozesse sichtbar zu machen · Die Taskcard · Enthält alles für die Durchführung: · alle notwendigen Informationen das Planungsraster hilfreiche Unterlagen · Konzept und Taskcard lassen sich an die eigene Gruppe anpassen.","136":"Rahmen und Anmeldung · Neu · Erstmals als RLFB und für weitere Schularten · Ursprünglich für Realschulen und Gymnasien geplant, jetzt als regionale Lehrkräftefortbildung mit Ausweitung auf andere Schularten. · Tagungsort: eine teilnehmende Schule · So läuft die Anmeldung · Lehrkräfte bewerben sich über FIBS · Lehrkräfte melden ihre Schülerinnen und Schüler per E-Mail dazu · FIBS-Lehrgang https://bycs.link/tBfEoV · Nur Oberbayern ;-(","137":"Fragen? · Meldet euch gerne bei mir: Thomas Russ BNE-Team Oberfranken thomas.russ@sbsz-bamberg.de +49 0951 29783 - 152"};
+const BILDQUELLE = {
+ 64:"Bildquelle: vagabundo-tinyhouse.com", 75:"Bildquelle: vagabundo-tinyhouse.com", 76:"Bildquelle: vagabundo-tinyhouse.com",
+ 77:"Bildquelle: vagabundo-tinyhouse.com", 78:"Bildquelle: vagabundo-tinyhouse.com", 66:"Bildquelle: 4x4schweiz.ch",
+ 82:"Bilder: Anja v. Klitzing | dialogstifter, ©istockphoto.com/stellalevi"
+};
+const KONTAKT = {name:"Thomas Russ", rolle:"BNE-Team Oberfranken · Staatliches Berufliches Schulzentrum Bamberg", mail:"thomas.russ@sbsz-bamberg.de", tel:"+49 951 29783-152", telHref:"+4995129783152"};
+const von = (a,b) => Array.from({length:b-a+1},(_,i)=>a+i);
+
+/* ---------- Stationen ---------- */
+const STATIONEN = [
+ {id:"willkommen", icon:"👋", titel:"Begrüßung", kurz:"Willkommen in Bamberg", folien:[], bewertbar:false,
+  html:`<p class="lead">Herzlich willkommen in Bamberg!</p>
+   <p>Ich begrüße Sie herzlich im Namen der <b>Regierung von Oberfranken</b>, des <b>Staatsinstituts für Schulqualität und Bildungsforschung (ISB)</b> und des <b>Bayerischen Staatsministeriums für Unterricht und Kultus (StMUK)</b>.</p>
+   <p>Diese Seite begleitet den Fachvortrag und den anschließenden Workshop. Sie können alle Inhalte der Vortragsfolien in Ihrem eigenen Tempo und mit eigenen Schwerpunkten noch einmal durchgehen, allen Links folgen und für jede vorgestellte Maßnahme festhalten, ob sie zu Ihrer Schule passen könnte.</p>`,
+  links:[]},
+ {id:"bne", icon:"🌍", titel:"BNE – ein gemeinsames Verständnis", kurz:"Was ist nachhaltige Entwicklung?", folien:von(4,12), bewertbar:false,
+  html:`<h3>Nachhaltigkeit</h3><p>Maßnahmen und Zustände, die dafür sorgen, dass in Zukunft auch noch genug Ressourcen für alle da sind.</p>
+   <h3>Nachhaltige Entwicklung</h3><p>Eine lebenswerte Zukunft für alle – in allen Bereichen: <b>ökologisch, sozial, ökonomisch</b>. Die 17 Ziele für nachhaltige Entwicklung (SDGs) der Vereinten Nationen dienen dabei als Richtschnur.</p>
+   <h3>Der gemeinsame Nenner</h3><p>Klimaschule Bayern verbindet ökologische Verträglichkeit, soziale Gerechtigkeit und ökonomische Leistungsfähigkeit – erweitert um Kultur &amp; Bildung, Politik, Generationen-Gerechtigkeit und Gerechtigkeit weltweit. <span class="klein">(Grafik nach Markus Lenk, Netzwerk Schule und Museum in Bayern)</span></p>
+   <h3>BNE: Bildung für nachhaltige Entwicklung</h3><p>Sach- und Methodenkompetenz, Sozialkompetenz und Selbstkompetenz führen zur <b>Gestaltungskompetenz</b>: aktiv an einer lebenswerten Zukunft für alle mitwirken zu können. Schlüssel dafür sind <b>Partizipation</b> und <b>Selbstwirksamkeit</b>.</p>
+   <div class="merke"><b>„Bildung für nachhaltige Entwicklung will Menschen zu aktivem Handeln und zukunftsfähigem Denken befähigen.“</b> <span class="klein">(BNE-Portal)</span><br>Also: <b>selbst aktiv werden!</b></div>`,
+  links:[["BNE-Portal (#BNE2030)","https://www.bne-portal.de/bne/"],["BNE-Modellkommune Landkreis Wittenberg","https://www.landkreis-wittenberg.de/zukunft-gestalten/bildung/bne-modellkommune/"],["Bildung für nachhaltige Entwicklung in Bayern","https://www.bne.bayern.de"]],
+  impulse:["Welche der drei Dimensionen (ökologisch, sozial, ökonomisch) kommt an Ihrer Schule bisher zu kurz?","Wo erleben Ihre Schülerinnen und Schüler schon heute Selbstwirksamkeit?","Wie könnte die SMV Partizipation im Sinne der BNE stärken?"]},
+ {id:"film", icon:"🎬", titel:"Einstieg: Filmtipp", kurz:"Teaser für den Einstieg in die BNE", folien:[13], bewertbar:true,
+  html:`<p>Ein kurzer Filmausschnitt eignet sich als Teaser bzw. Einstieg in das Thema BNE – zum Beispiel in einer Klasse, im Kollegium oder in einer SMV-Sitzung.</p>
+   <p><b>Empfohlener Ausschnitt:</b> 0:00 bis 0:49</p>
+   <div class="video" id="video"><div><p>Das Video wird von YouTube geladen. Dabei werden Daten an YouTube übertragen.</p><button class="btn" onclick="videoLaden()">Video laden</button> <a class="btn zweit" href="https://www.youtube.com/watch?v=8wF2kp7IuMU" target="_blank" rel="noopener">Auf YouTube ansehen</a></div></div>`,
+  links:[["Film auf YouTube","https://www.youtube.com/watch?v=8wF2kp7IuMU"]],
+  impulse:["In welcher Situation würden Sie den Film einsetzen (Unterricht, Konferenz, SMV)?","Welche Frage würden Sie nach dem Film in die Runde geben?"]},
+ {id:"bamberg", icon:"🏫", titel:"Das Bamberger Modell", kurz:"BNE aus dem Fachunterricht heraus", folien:von(14,78), bewertbar:true,
+  kapitel:[["Grundidee",14,15],["Projektbeispiele",16,20],["Bienen & BeeConnected",21,38],["Pavillon & „Fix your bike“",39,47],["Terra preta",48,52],["SBSZ Solutions",53,78]],
+  html:`<p><b>Fachbereiche am SBSZ Bamberg:</b> Agrarwirtschaft/Gärtner/Floristen · Bau- und Holztechnik · Elektrotechnik I–III · Metalltechnik I–III</p>
+   <h3>Die Idee</h3><ul><li>Einstieg in die BNE aus dem jeweiligen fachlichen Hintergrund der Schülerinnen und Schüler</li><li>Identifizierung von inhaltlichen Schnittstellen in den jeweiligen Fachlehrplänen</li><li>Projektierung der Inhalte und Nutzbarmachung mit dem Hintergrund der Bildung für Nachhaltige Entwicklung</li></ul>
+   <p class="klein">Die Folien zeigen Projekte, die nach diesem Modell entstanden sind. Nutzen Sie die Kapitel-Schaltflächen über dem Folienbetrachter, um direkt zu einem Projekt zu springen.</p>`,
+  links:[["Energiekisten – Experimentierkoffer zur Energiewende (kostenfrei ausleihbar)","https://www.energiekisten.de"],["Reservierung Energiekisten","mailto:reservierung@energiekisten.de"]],
+  impulse:["Welche Fachbereiche bzw. Fächer gibt es an Ihrer Schule – und wo liegen Schnittstellen zu Nachhaltigkeitsthemen im Lehrplan?","Welches der gezeigten Projekte ließe sich auf einen Fachbereich Ihrer Schule übertragen?","Wer im Kollegium könnte ein erstes fachliches BNE-Projekt anstoßen?","Welche außerschulischen Partner (Betriebe, Kommune, Vereine) kämen infrage?"]},
+ {id:"juniorfirma", icon:"🚀", titel:"Schülerfirma gründen", kurz:"IW JUNIOR oder Gründung in School", folien:[79,80], bewertbar:true,
+  html:`<p><b>SBSZ Solutions</b> wurde am SBSZ Bamberg als <b>IW JUNIOR Schülerfirma</b> gegründet und geführt. Das Programm „IW JUNIOR Schülerfirmen – Start-up Spirit in die Schule“ begleitet Schülerinnen und Schüler dabei, eine eigene Firma mit echten Produkten oder Dienstleistungen aufzubauen.</p>
+   <p><b>Alternative:</b> Das Angebot <b>„Gründung in School“</b> bietet ebenfalls Unterstützung, um Gründergeist und wirtschaftliches Denken an die Schule zu bringen.</p>`,
+  links:[["IW JUNIOR Schülerfirmen","https://iwjunior.de/angebote/sekundarstufe-i/schuelerfirmen/"],["IW JUNIOR (Kurzlink von der Folie)","https://bycs.link/9uhpHv"],["Gründung in School","https://www.gruendunginschool.de/de/"],["Gründung in School (Kurzlink von der Folie)","https://bycs.link/BvrgsF"]],
+  impulse:["Gibt es an Ihrer Schule eine Klasse, AG oder SMV-Gruppe, die eine Schülerfirma tragen könnte?","Welches Programm passt besser zu Ihrer Schulart und Ihren Ressourcen?","Welche Lehrkraft könnte die Begleitung übernehmen?"]},
+ {id:"beeheaven", icon:"🐝", titel:"Produktidee: Samenkugeln „BeeHeaven“", kurz:"Schülerfirma der Klara-Oppenheimer-Schule Würzburg", folien:[81,82], bewertbar:true,
+  html:`<p><b>Gemeinsam für Bienen und Biodiversität</b> – Klara-Oppenheimer-Schule, Würzburg</p>
+   <p>An der Fachakademie für Ernährungs- und Versorgungsmanagement wurde die Schülerfirma <b>„BeeHeaven“</b> gegründet. Gemeinsam mit Jugendlichen von Don Bosco stellten die Schülerinnen 2.000 Samenkugeln für Bienenwiesen her – aus torffreier Erde, Lehmpulver, heimischen Blumensamen und recyceltem Kaffeesatz, der zugleich als natürlicher Dünger dient. Diese Rezeptur ist bislang einzigartig auf dem Markt (Alleinstellungsmerkmal). Unterstützung kam aus Politik und Wirtschaft.</p>
+   <h3>Die Idee</h3><p>Bienenfreundliche Samenkugeln ermöglichen es allen, selbst aktiv zu werden – auch ohne Garten oder Fachwissen. Man „wirft“ sie einfach auf ein Stück Erde.</p>
+   <h3>Die Ziele</h3><ul><li>Artenvielfalt von Flora und Fauna durch heimische Pflanzen unterstützen</li><li>zusätzliche Nahrungsquellen für Wild- und Honigbienen schaffen</li><li>einfache Möglichkeit bieten, sich am Umweltschutz zu beteiligen</li><li>CO₂-Bindung, besseres Mikroklima, resilientere städtische Räume</li></ul>
+   <h3>Der Weg</h3><ul><li><b>Beobachtung:</b> „Warum gibt es so wenig Blumenwiesen?“</li><li><b>Ideenverbindung:</b> Umweltproblem + Lösung = Produktidee; Zielgruppen: Umweltbewusste, Eltern, Lehrkräfte, Firmen</li><li><b>Test &amp; DIY:</b> erste Kugeln in der Küche, verschenken, testen</li><li><b>Vermarktung:</b> Verpackung, Storytelling, Verkauf auf Märkten, in Unverpackt-Läden, online, Landratsamt, Rathaus, Schule</li></ul>
+   <h3>Werkzeugbox</h3><p>Torffreie Erde, Lehmpulver, Bienensamen, Kaffeesatz · Recyclingkarton, Etiketten · Design-Werkzeuge · Social Media, Website · Storytelling &amp; Content · Verkaufsplattformen · Kooperationen</p>
+   <h3>Das nehmen die Schülerinnen und Schüler mit</h3><p>Ökologisches Verständnis · Gestaltung &amp; Produktentwicklung · wirtschaftliches Denken · gesellschaftliche Wirkung</p>
+   <div class="merke"><b>Tipps:</b> Projekt partizipativ gestalten · Verantwortung verteilen · Bezug zur Lebenswelt herstellen · Projekt sichtbar machen · offen für Kritik bleiben · Erfolge feiern</div>
+   <p class="klein">Kontakt laut Folie: Klara-Oppenheimer-Schule, Stettiner Straße 1, 97072 Würzburg, Tel. 0931 7908-100</p>`,
+  links:[["Klara-Oppenheimer-Schule Würzburg","https://www.klara-oppenheimer-schule.de"],["Bildung für nachhaltige Entwicklung in Bayern","https://www.bne.bayern.de"]],
+  impulse:["Welches einfache, nachhaltige Produkt könnten Ihre Schülerinnen und Schüler herstellen?","Mit welchem Partner (Jugendhilfe, Verein, Betrieb) ließe sich eine Kooperation aufbauen?","Wo könnten Produkte verkauft oder verschenkt werden?"]},
+ {id:"sicherungen", icon:"🔌", titel:"Sammelaktion NH/HH-Sicherungen", kurz:"Kleiner Einstieg ohne Schülerfirma", folien:[83], bewertbar:true,
+  html:`<p>Wenn eine Schülerfirma zu groß oder zu aufwändig erscheint: Das <b>Sammeln von NH/HH-Sicherungen</b> für das Recycling muss nur organisiert bzw. beantragt werden – ein einfacher, sichtbarer Beitrag zur Ressourcenschonung.</p>`,
+  links:[["NH/HH-Recycling","https://www.nh-hh-recycling.de/"],["NH/HH-Recycling (Kurzlink von der Folie)","https://bycs.link/wts3iD"]],
+  impulse:["Wo fallen an Ihrer Schule oder bei Ausbildungsbetrieben Sicherungen an?","Wer könnte die Sammlung organisieren (SMV, Hausmeister, Fachbereich)?"]},
+ {id:"handy", icon:"📱", titel:"HandyAktion Bayern", kurz:"Sammelzentrum werden + Begleitmaterial", folien:[84,85], bewertbar:true,
+  html:`<p><b>Wir sind Sammelzentrum!</b> Alte oder kaputte Smartphones können abgegeben werden – ein einfacher und sinnvoller Beitrag zu nachhaltigem Ressourceneinsatz und zum Schutz der Umwelt. Auch hier muss nur etwas organisiert bzw. beantragt werden.</p>
+   <p>Ausrangierte Handys sind eine „Goldmine im Sideboard“: Sie enthalten wertvolle Metalle wie Gold, Palladium, Kupfer oder Kobalt.</p>
+   <p><b>Begleitmaterial:</b> „Dein Smartphone – eine Rohstoffkatastrophe?“ – Bildungsmaterial für den Unterricht.</p>`,
+  links:[["HandyAktion Bayern (Mission EineWelt)","https://mission-einewelt.de/kampagnen/handyaktion-bayern/"],["HandyAktion (Kurzlink von der Folie)","https://bycs.link/PFScHR"],["Bildungsmaterial „Dein Smartphone – eine Rohstoffkatastrophe?“","https://mission-einewelt.de/bildungsmaterial/dein-smartphone-eine-rohstoffkatastrophe/"],["Bildungsmaterial (Kurzlink von der Folie)","https://bycs.link/XFg3K2"]],
+  impulse:["Wo könnte an Ihrer Schule eine Sammelbox stehen?","In welchem Fach ließe sich das Begleitmaterial einsetzen?","Wie macht die SMV die Aktion bekannt?"]},
+ {id:"coburg", icon:"🌳", titel:"Grünes Klassenzimmer – FOS/BOS Coburg", kurz:"Projekt Schulhofträume", folien:von(86,130), bewertbar:true,
+  kapitel:[["Ausgangslage",86,90],["Weg & Ablauf",91,95],["Insektenhotel",96,100],["Schulteich",101,106],["Kräuterspirale",107,108],["Grünes Klassenzimmer",109,112],["Blühwiese & Lebensräume",113,121],["Obstbäume & Einweihung",122,126],["Finanzierung",127,127],["Ergebnis",128,130]],
+  html:`<h3>Ausgangslage</h3><p>Graues Betonpflaster, kaum Aufenthaltsqualität. Ziel: Umgestaltung des gesamten Pausenhofes. Problem: Der größte Teil gehört zur Feuerwehrzufahrt – nur ein kleines Areal steht zur Verfügung.</p>
+   <h3>Der Weg zum Schulhoftraum</h3><p>Januar 2021: Info über den Wettbewerb „Schulhofträume“ (Deutsches Kinderhilfswerk, Rossmann, Procter &amp; Gamble). Vorgaben: Flächenentsiegelung, Förderung von Insekten, Biodiversität, grünes Klassenzimmer, Recycling. Hauptgewinn: 15.000 €.</p>
+   <h3>Der Ablauf</h3><ol><li>Mitstreiter suchen</li><li>Detailliertes Konzept inkl. Zeitplan und Finanzierung nach den Vorgaben des DKHW</li><li>Schulleitung überzeugen, z. B. mit einer anschaulichen Präsentation</li><li>Schulamt, Grünflächenamt, SMV, Hausmeister ins Boot holen</li><li>Schwierigkeiten ausräumen (Feuerwehrzufahrt …)</li><li>Lehrereinsatztag: Vorziehen des pädagogischen Tages</li><li>Schüleraktionen planen und durchführen</li><li>Zuverlässige externe Partner für alles, was nicht selbst gemacht werden kann</li></ol>
+   <h3>Mitstreiter</h3><p>SMV · Schulleitung, Schulamt · Grünflächenamt · viele Klassen in flexiblen Projekttagen · externe Partner wie Schreiner · Lehrkräfte am Lehrereinsatztag</p>
+   <h3>Teilprojekte</h3><p>Insektenhotel · Pergola mit Rankpflanzen, Hochbeete, Schulbänke · Schulteich · Kräuterspirale · Blühwiese · Esspflanzen (Johannis-, Stachel-, Brom-, Goji-, Heidel- und Himbeeren) · Obstbäume · Totholzhaufen · Trockenmauer für Reptilien · Vogelhäuschen · Igelquartier · Eichhörnchen-Futterstelle</p>
+   <h3>Finanzierungsquellen</h3><p>Preisgelder (Schulhofträume, „Sparda macht’s möglich“) · Förderverein · Lions Club, Rotary Club u. a. · Banken · Industriebetriebe am Ort · Geld- und Sachspenden von Schülern und Lehrern · Sachspenden vom Grünflächenamt</p>`,
+  links:[],
+  impulse:["Welche Fläche an Ihrer Schule ließe sich entsiegeln oder begrünen?","Welche Teilprojekte wären mit Ihren Klassen oder Fachbereichen umsetzbar?","Welche Wettbewerbe und Förderquellen könnten Sie nutzen?","Wäre ein Lehrereinsatztag an Ihrer Schule denkbar?"]},
+ {id:"vernetzung", icon:"🤝", titel:"Schülervernetzungstag", kurz:"Konzept – völlig ergebnisoffen", folien:von(131,137), bewertbar:true,
+  html:`<p>Ein ganztägiges Treffen für Schülerinnen und Schüler, die sich für Bildung für nachhaltige Entwicklung engagieren. <span class="klein">(Grundlage: Konzept des BNE-Teams Oberbayern)</span></p>
+   <h3>Die Idee</h3><p>Ausgewählte Schülerinnen und Schüler, die sich im Sinne einer BNE engagieren, kommen einen Tag lang zusammen: <b>Inspiration &amp; Input</b> über die Schulgrenzen hinweg, <b>aktive Teilhabe</b> (die Schülerinnen und Schüler gestalten den Tag mit) und <b>Vernetzung</b> über die eigene Schule hinaus. Pro Schule begleiten eine bis zwei Lehrkräfte.</p>
+   <h3>Der Tag in fünf Teilen</h3><ol><li>Begrüßung und kurze Standortbestimmung</li><li>Gesprächsrunden – selbstorganisiert zu Themen, die die Schülerinnen und Schüler bewegen (parallel tauschen sich die Lehrkräfte aus)</li><li>Workshopschiene</li><li>gemeinsames Mittagessen</li><li>Barcamps zum Teilen erfolgreicher Praxisbeispiele</li></ol>
+   <h3>Nach dem Tag</h3><p>Ein <b>digitales Nachtreffen</b> ist sinnvoll, um die Vernetzung weiterzuführen, geplante Vorhaben nachhaltig zu stärken und angestoßene Prozesse sichtbar zu machen.</p>
+   <h3>Die Taskcard</h3><p>Enthält alles für die Durchführung: alle notwendigen Informationen, das Planungsraster und hilfreiche Unterlagen. Konzept und Taskcard lassen sich an die eigene Gruppe anpassen.</p>
+   <h3>Rahmen und Anmeldung</h3><p>Erstmals als regionale Lehrkräftefortbildung (RLFB) und für weitere Schularten – ursprünglich für Realschulen und Gymnasien geplant. Tagungsort: eine teilnehmende Schule. Lehrkräfte bewerben sich über FIBS und melden ihre Schülerinnen und Schüler per E-Mail dazu. <b>Hinweis:</b> Der FIBS-Lehrgang gilt nur für Oberbayern.</p>`,
+  links:[["Taskcard zum Vernetzungstreffen","https://bycs.link/LRPdq2"],["FIBS-Lehrgang (Oberbayern)","https://fibs.alp.dillingen.de/lehrgangssuche?container_id=450560"],["FIBS-Lehrgang (Kurzlink von der Folie)","https://bycs.link/tBfEoV"]],
+  impulse:["Gibt es in Ihrer Region Schulen, mit denen ein Vernetzungstag möglich wäre?","Welche Schülerinnen und Schüler an Ihrer Schule engagieren sich bereits für Nachhaltigkeit?","Welche Teile des Konzepts würden Sie für Ihre Region anpassen?"]}
+];
+
+/* ---------- Speicher (nur lokal) ---------- */
+const SPEICHER = "smv_shapingmyvision_v1";
+let stand = {s:{}, plan:{schritt:"",bis:"",wer:"",offen:""}};
+function laden(){try{const x=JSON.parse(localStorage.getItem(SPEICHER));if(x)stand=Object.assign(stand,x);}catch(e){}}
+function sichern(){try{localStorage.setItem(SPEICHER,JSON.stringify(stand));}catch(e){}}
+laden();
+const st = id => (stand.s[id] = stand.s[id] || {passung:0,wirkung:0,aufwand:"",merk:false,gedanken:"",schritte:"",huerden:"",besucht:false});
+
+/* ---------- Hilfsfunktionen ---------- */
+const $ = s => document.querySelector(s);
+const esc = s => String(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const AUFWAND = {gering:1, mittel:2, hoch:3};
+const bewertet = id => { const x=stand.s[id]; return x && (x.passung||x.wirkung||x.aufwand||x.merk); };
+function punktzahl(x){ if(!x||!x.passung||!x.wirkung||!x.aufwand) return null; return x.passung*2 + x.wirkung*2 - AUFWAND[x.aufwand]*2 + (x.merk?1:0); }
+
+/* ---------- Navigation ---------- */
+const SEITEN = [["start","🧭 Stationen"],["ablauf","⏱️ Workshop-Ablauf"],["matrix","🗳️ Meine Entscheidung"],["links","🔗 Alle Links"],["kontakt","✉️ Kontakt"]];
+function nav(aktiv){ $("#nav").innerHTML = SEITEN.map(([id,t])=>`<button class="${id===aktiv?'aktiv':''}" onclick="zeige('${id}')">${t}</button>`).join(""); }
+function zeige(id){
+ stopTimerAnzeige();
+ nav(STATIONEN.some(s=>s.id===id && id!=="start")?"start":id);
+ window.scrollTo(0,0);
+ if(decodeURIComponent(location.hash.slice(1))!==id){ location.hash=id; return; }
+ ({start:seiteStart,ablauf:seiteAblauf,matrix:seiteMatrix,links:seiteLinks,kontakt:seiteKontakt}[id]||(()=>seiteStation(id)))();
+}
+
+/* ---------- Startseite: Stationen ---------- */
+function seiteStart(){
+ const anz = STATIONEN.filter(s=>s.bewertbar).length, fertig = STATIONEN.filter(s=>s.bewertbar && punktzahl(stand.s[s.id])!==null).length;
+ const merk = STATIONEN.filter(s=>stand.s[s.id]&&stand.s[s.id].merk).length;
+ $("#app").innerHTML = `
+ <div class="karte">
+  <h2>Ideenwerkstatt: BNE und SMV an Ihrer Schule</h2>
+  <p class="lead">Gehen Sie die Stationen in Ihrem eigenen Tempo durch. Jede Station enthält die Folien aus dem Vortrag, die Links zum Weiterlesen und Impulsfragen für den Austausch.</p>
+  <p>Zu jeder Maßnahme können Sie festhalten, wie gut sie zu Ihrer Schule <b>passt</b>, welche <b>Wirkung</b> Sie erwarten und wie hoch der <b>Aufwand</b> wäre. Unter <b>„Meine Entscheidung“</b> sehen Sie anschließend alle Bewertungen auf einen Blick und können Ihre Ergebnisse herunterladen oder drucken.</p>
+  <p class="klein">Bewertet: ${fertig} von ${anz} Maßnahmen · auf der Merkliste: ${merk} · Ihre Notizen werden nur in diesem Browser gespeichert – es werden keine Daten übertragen.</p>
+ </div>
+ <div class="raster">${STATIONEN.map((s,i)=>{
+   const x=stand.s[s.id]||{}, p=punktzahl(x);
+   const chips=[]; if(x.besucht)chips.push('<span class="chip ok">✓ angesehen</span>'); if(p!==null)chips.push(`<span class="chip">bewertet</span>`); if(x.merk)chips.push('<span class="chip stern">★ Merkliste</span>');
+   const fol = s.folien.length ? (s.folien.length>1?`Folien ${s.folien[0]}–${s.folien[s.folien.length-1]}`:`Folie ${s.folien[0]}`) : "Einführung";
+   return `<div class="station ${x.besucht?'besucht':''}" onclick="zeige('${s.id}')">
+    <div class="icon">${s.icon}</div><h3>${i}. ${s.titel}</h3><p>${s.kurz}</p>
+    <div class="nr">${fol}${s.links&&s.links.length?` · ${s.links.length} Link${s.links.length>1?'s':''}`:''}</div>
+    <div class="chips">${chips.join("")}</div></div>`;}).join("")}
+ </div>`;
+}
+
+/* ---------- Stationsseite ---------- */
+let V = null; // Folienbetrachter
+function seiteStation(id){
+ const s = STATIONEN.find(x=>x.id===id), x = st(id), i = STATIONEN.indexOf(s);
+ x.besucht = true; sichern();
+ const vor = STATIONEN[i-1], nach = STATIONEN[i+1];
+ $("#app").innerHTML = `
+ <div class="karte noprint" style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap">
+  <button class="btn zweit" onclick="zeige('start')">← Alle Stationen</button>
+  <span>${vor&&vor.id!=="start"?`<button class="btn zweit" onclick="zeige('${vor.id}')">← ${vor.titel}</button>`:''}
+  ${nach?`<button class="btn zweit" onclick="zeige('${nach.id}')">${nach.titel} →</button>`:''}</span>
+ </div>
+ <div class="karte"><h2>${s.icon} ${s.titel}</h2>
+  ${s.folien.length?`<div id="viewer"></div>`:''}
+ </div>
+ <div class="zweispaltig">
+  <div>
+   <div class="karte">${s.html}</div>
+   ${s.links&&s.links.length?`<div class="karte"><h3>🔗 Links zum Weiterverfolgen</h3><ul class="links">${s.links.map(([t,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${t}</a></li>`).join("")}</ul></div>`:''}
+  </div>
+  <div>
+   ${s.impulse?`<div class="karte"><h3>💬 Impulsfragen für den Austausch</h3><ul class="impulse">${s.impulse.map(q=>`<li>${q}</li>`).join("")}</ul></div>`:''}
+   ${werkzeug(s)}
+  </div>
+ </div>`;
+ if(s.folien.length) viewerStart(s);
+}
+function werkzeug(s){
+ const x = st(s.id);
+ if(s.id==="willkommen") return `<div class="karte werkzeug"><h3>So arbeiten Sie mit dieser Seite</h3><ol><li>Stationen auswählen und Folien ansehen</li><li>Links verfolgen und Impulsfragen nutzen</li><li>Maßnahmen bewerten und Gedanken notieren</li><li>Unter „Meine Entscheidung“ Ergebnisse vergleichen, herunterladen oder drucken</li></ol><button class="btn" onclick="zeige('bne')">Los geht’s →</button></div>`;
+ const bew = s.bewertbar ? `
+  <div class="bewertung">
+   <span>Passt zu meiner Schule</span>${sterne(s.id,"passung")}
+   <span>Erwartete Wirkung</span>${sterne(s.id,"wirkung")}
+   <span>Aufwand</span><span class="wahl">${["gering","mittel","hoch"].map(a=>`<button class="${x.aufwand===a?'an':''}" onclick="setze('${s.id}','aufwand','${a}')">${a}</button>`).join("")}</span>
+   <span>Merkliste</span><span class="wahl"><button class="${x.merk?'an':''}" onclick="setze('${s.id}','merk',${!x.merk})">${x.merk?'★ gemerkt':'☆ merken'}</button></span>
+  </div>` : '';
+ return `<div class="karte werkzeug"><h3>🛠️ Meine Einschätzung</h3>${bew}
+  <label class="feld" for="g_${s.id}">Meine Gedanken / Erkenntnisse</label><textarea id="g_${s.id}" oninput="notiz('${s.id}','gedanken',this.value)" placeholder="Was nehme ich mit?">${esc(x.gedanken)}</textarea>
+  ${s.bewertbar?`<label class="feld" for="s_${s.id}">Erste Schritte an meiner Schule</label><textarea id="s_${s.id}" oninput="notiz('${s.id}','schritte',this.value)" placeholder="Wer? Was? Bis wann?">${esc(x.schritte)}</textarea>
+  <label class="feld" for="h_${s.id}">Mögliche Hürden</label><textarea id="h_${s.id}" oninput="notiz('${s.id}','huerden',this.value)" placeholder="Was könnte schwierig werden?">${esc(x.huerden)}</textarea>`:''}
+  <div class="gespeichert" id="gesp_${s.id}"></div></div>`;
+}
+function sterne(id,feld){ const w=st(id)[feld]; return `<span class="sterne" role="group" aria-label="${feld}">${[1,2,3,4,5].map(n=>`<button class="${n<=w?'an':''}" title="${n} von 5" aria-label="${n} von 5" onclick="setze('${id}','${feld}',${n===w?0:n})">★</button>`).join("")}</span>`; }
+function setze(id,feld,wert){ st(id)[feld]=wert; sichern(); const sc=window.scrollY; const v=V&&V.idx; seiteStation(id); if(V&&v!==null&&v!==undefined){V.idx=v;viewerZeige();} window.scrollTo(0,sc); }
+let notizTimer=null;
+function notiz(id,feld,wert){ st(id)[feld]=wert; clearTimeout(notizTimer); notizTimer=setTimeout(()=>{sichern(); const g=document.getElementById('gesp_'+id); if(g){g.textContent='✓ gespeichert'; setTimeout(()=>{if(g)g.textContent='';},1500);}},400); }
+
+/* ---------- Folienbetrachter ---------- */
+function viewerStart(s){ V={s,idx:0}; viewerZeige(); }
+function viewerZeige(){
+ const s=V.s, n=s.folien[V.idx], el=$("#viewer"); if(!el) return;
+ const kap = s.kapitel ? `<div class="kapitel noprint">${s.kapitel.map(([t,a,b])=>`<button class="${n>=a&&n<=b?'aktiv':''}" onclick="viewerGeheZu(${a})">${t}</button>`).join("")}</div>` : '';
+ const text = [FOLIENTEXT[n], BILDQUELLE[n]].filter(Boolean).join(" · ");
+ el.innerHTML = `${kap}<div class="viewer">
+  <div class="buehne" onclick="lightbox()" title="Vergrößern"><img src="img/folien/f${String(n).padStart(3,'0')}.jpg" alt="Folie ${n}"></div>
+  ${text?`<div class="text">${esc(text)}</div>`:''}
+  <div class="leiste"><button class="btn zweit" onclick="viewerSchritt(-1)" ${V.idx===0?'disabled':''}>← zurück</button><span class="klein">Folie ${n} · ${V.idx+1} von ${s.folien.length}</span><button class="btn zweit" onclick="viewerSchritt(1)" ${V.idx===s.folien.length-1?'disabled':''}>weiter →</button></div>
+  ${s.folien.length>1?`<div class="thumbs">${s.folien.map((f,i)=>`<button class="${i===V.idx?'aktiv':''}" onclick="V.idx=${i};viewerZeige()" aria-label="Folie ${f}"><img loading="lazy" src="img/mini/f${String(f).padStart(3,'0')}.jpg" alt=""><span>${f}</span></button>`).join("")}</div>`:''}
+ </div>`;
+ const akt = el.querySelector('.thumbs .aktiv'); if(akt) akt.scrollIntoView({block:"nearest",inline:"center"});
+ if(document.querySelector('.lightbox')) lightbox();
+}
+function viewerSchritt(d){ if(!V) return; V.idx=Math.max(0,Math.min(V.s.folien.length-1,V.idx+d)); viewerZeige(); }
+function viewerGeheZu(nr){ V.idx=V.s.folien.indexOf(nr); viewerZeige(); }
+function lightbox(){
+ let lb=document.querySelector('.lightbox'); if(!lb){lb=document.createElement('div');lb.className='lightbox';lb.onclick=e=>{if(e.target===lb)lbZu();};document.body.appendChild(lb);}
+ const n=V.s.folien[V.idx];
+ lb.innerHTML=`<img src="img/folien/f${String(n).padStart(3,'0')}.jpg" alt="Folie ${n}"><div class="zeile"><button class="btn" onclick="viewerSchritt(-1)">←</button><span>Folie ${n} · ${V.idx+1} von ${V.s.folien.length}</span><button class="btn" onclick="viewerSchritt(1)">→</button><button class="btn" onclick="lbZu()">✕ schließen</button></div>`;
+}
+function lbZu(){ const lb=document.querySelector('.lightbox'); if(lb) lb.remove(); }
+document.addEventListener("keydown",e=>{
+ if(e.target.tagName==="TEXTAREA"||e.target.tagName==="INPUT") return;
+ if(!V||!document.getElementById("viewer")) return;
+ if(e.key==="ArrowRight") viewerSchritt(1); else if(e.key==="ArrowLeft") viewerSchritt(-1); else if(e.key==="Escape") lbZu();
+});
+function videoLaden(){ $("#video").innerHTML=`<iframe src="https://www.youtube-nocookie.com/embed/8wF2kp7IuMU?start=0&end=49&rel=0" title="Filmtipp" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen></iframe>`; }
+
+/* ---------- Workshop-Ablauf mit Timer ---------- */
+const PHASEN = [
+ ["Erkunden",20,"Stationen in eigenem Tempo durchgehen, Folien ansehen, Links verfolgen. Interessante Maßnahmen auf die Merkliste setzen."],
+ ["Bewerten",15,"Gemerkte Maßnahmen einschätzen: Passung zur eigenen Schule, erwartete Wirkung, Aufwand. Gedanken und Hürden notieren."],
+ ["Austauschen",20,"In Kleingruppen (z. B. nach Schulart oder Region) die Impulsfragen besprechen. Wer hat schon Erfahrungen? Wo gibt es Synergien?"],
+ ["Entscheiden",15,"Unter „Meine Entscheidung“ die Matrix ansehen, eine bis zwei Maßnahmen auswählen und den ersten konkreten Schritt festhalten."],
+ ["Teilen",10,"Ergebnisse herunterladen oder drucken und im Plenum kurz vorstellen: Was nehme ich mit an meine Schule?"]
+];
+let TIMER={rest:0,laeuft:false,phase:-1,int:null};
+function seiteAblauf(){
+ $("#app").innerHTML=`<div class="karte"><h2>Workshop-Ablauf</h2>
+  <p>Vorschlag für die Arbeitsphase nach dem Vortrag – die Zeiten lassen sich frei anpassen. Mit dem Timer behalten Sie (oder die Moderation) die Zeit im Blick.</p>
+  <div class="zweispaltig"><div id="phasen"></div>
+  <div class="karte" style="text-align:center"><h3>⏱️ Timer</h3><div class="timer" id="tanz">00:00</div><p class="klein" id="tphase">Phase wählen oder Minuten eingeben</p>
+   <p><input type="text" id="tmin" inputmode="numeric" style="width:80px" placeholder="Min."> <button class="btn zweit" onclick="timerSetzen(parseInt(document.getElementById('tmin').value||'0',10),-1)">setzen</button></p>
+   <p><button class="btn" onclick="timerStartStop()" id="tbtn">Start</button> <button class="btn zweit" onclick="timerSetzen(0,-1)">zurücksetzen</button></p></div></div></div>`;
+ phasenZeigen(); timerAnzeigen(); if(TIMER.laeuft) TIMER.anz=setInterval(timerAnzeigen,500);
+}
+function phasenZeigen(){ $("#phasen").innerHTML=PHASEN.map(([t,m,b],i)=>`<div class="phase ${TIMER.phase===i?'aktiv':''}"><b>${i+1}. ${t}</b> <span class="klein">(${m} min)</span><br>${b}<br><button class="btn zweit" style="margin-top:6px;padding:4px 10px;font-size:13px" onclick="timerSetzen(${m},${i})">⏱️ ${m} min starten</button></div>`).join(""); }
+function timerSetzen(min,phase){ TIMER.rest=Math.max(0,min)*60; TIMER.phase=phase; if(phase>=0){TIMER.laeuft=true;TIMER.ende=Date.now()+TIMER.rest*1000;} else TIMER.laeuft=false; phasenZeigen(); timerAnzeigen(); clearInterval(TIMER.anz); if(TIMER.laeuft) TIMER.anz=setInterval(timerAnzeigen,500); }
+function timerStartStop(){ if(TIMER.laeuft){TIMER.rest=Math.max(0,Math.round((TIMER.ende-Date.now())/1000));TIMER.laeuft=false;clearInterval(TIMER.anz);} else if(TIMER.rest>0){TIMER.laeuft=true;TIMER.ende=Date.now()+TIMER.rest*1000;TIMER.anz=setInterval(timerAnzeigen,500);} timerAnzeigen(); }
+function timerAnzeigen(){
+ const a=document.getElementById("tanz"); if(!a) return;
+ let r=TIMER.laeuft?Math.max(0,Math.round((TIMER.ende-Date.now())/1000)):TIMER.rest;
+ if(TIMER.laeuft&&r===0){TIMER.laeuft=false;TIMER.rest=0;clearInterval(TIMER.anz);a.style.color="var(--rot)";} else a.style.color="";
+ a.textContent=String(Math.floor(r/60)).padStart(2,"0")+":"+String(r%60).padStart(2,"0");
+ document.getElementById("tbtn").textContent=TIMER.laeuft?"Pause":"Start";
+ document.getElementById("tphase").textContent=TIMER.phase>=0?`Phase ${TIMER.phase+1}: ${PHASEN[TIMER.phase][0]}`:(r?"eigene Zeit":"Phase wählen oder Minuten eingeben");
+}
+function stopTimerAnzeige(){ clearInterval(TIMER.anz); }
+
+/* ---------- Entscheidungsmatrix ---------- */
+function seiteMatrix(){
+ const liste = STATIONEN.filter(s=>s.bewertbar).map(s=>({s,x:stand.s[s.id]||{},p:punktzahl(stand.s[s.id])}));
+ liste.sort((a,b)=>(b.p??-99)-(a.p??-99));
+ const P=stand.plan;
+ $("#app").innerHTML=`<div class="karte">
+  <div class="druckkopf"><b>SMV – Shaping My Vision · Meine Entscheidung</b><br>${new Date().toLocaleDateString("de-DE")}</div>
+  <h2>Meine Entscheidung</h2>
+  <p class="noprint">Hier sehen Sie alle Maßnahmen mit Ihren Bewertungen. Die Rangfolge ergibt sich aus Passung und Wirkung (je doppelt gewichtet) abzüglich des Aufwands – gemerkte Maßnahmen bekommen einen Bonuspunkt. Sie ist nur eine Orientierung: Entscheidend ist Ihr Blick auf die eigene Schule.</p>
+  <table><tr><th>Maßnahme</th><th>Passung</th><th>Wirkung</th><th>Aufwand</th><th>Merkliste</th><th>Rang-Punkte</th></tr>
+  ${liste.map(({s,x,p})=>`<tr><td><a href="#" onclick="zeige('${s.id}');return false">${s.icon} ${s.titel}</a></td><td>${x.passung?'★'.repeat(x.passung):'–'}</td><td>${x.wirkung?'★'.repeat(x.wirkung):'–'}</td><td>${x.aufwand||'–'}</td><td>${x.merk?'★':''}</td><td>${p===null?'<span class="klein">noch nicht vollständig</span>':p}</td></tr>`).join("")}
+  </table></div>
+ <div class="zweispaltig">
+  <div class="karte matrix"><h3>Aufwand-Wirkungs-Matrix</h3><p class="klein">Oben links liegen „Quick Wins“: große Wirkung bei geringem Aufwand. Die Kreisgröße zeigt die Passung zu Ihrer Schule.</p>${matrixSVG(liste)}</div>
+  <div class="karte werkzeug"><h3>🎯 Mein Plan</h3>
+   <label class="feld" for="p1">Diese Maßnahme(n) möchte ich an meiner Schule anstoßen:</label><textarea id="p1" oninput="planNotiz('schritt',this.value)">${esc(P.schritt)}</textarea>
+   <label class="feld" for="p2">Wen hole ich ins Boot? (Schulleitung, SMV, Kollegium, Partner …)</label><textarea id="p2" oninput="planNotiz('wer',this.value)">${esc(P.wer)}</textarea>
+   <label class="feld" for="p3">Mein erster Schritt – bis wann?</label><textarea id="p3" oninput="planNotiz('bis',this.value)">${esc(P.bis)}</textarea>
+   <label class="feld" for="p4">Offene Fragen</label><textarea id="p4" oninput="planNotiz('offen',this.value)">${esc(P.offen)}</textarea>
+   <div class="gespeichert" id="gesp_plan"></div></div>
+ </div>
+ <div class="karte noprint"><h3>Ergebnisse sichern</h3>
+  <p>Ihre Eingaben bleiben in diesem Browser gespeichert. Zum Mitnehmen oder Teilen im Workshop:</p>
+  <p><button class="btn" onclick="exportText()">⬇️ Als Textdatei herunterladen</button> <button class="btn zweit" onclick="window.print()">🖨️ Drucken / als PDF speichern</button> <button class="btn zweit" onclick="kopieren()">📋 In die Zwischenablage</button></p>
+  <p><button class="btn zweit" onclick="if(confirm('Wirklich alle Bewertungen und Notizen löschen?')){stand={s:{},plan:{schritt:'',bis:'',wer:'',offen:''}};sichern();seiteMatrix();}">Alle Eingaben löschen</button></p></div>
+ <div class="karte druckkopf"><h3>Notizen zu den Maßnahmen</h3>${STATIONEN.filter(s=>{const x=stand.s[s.id];return x&&(x.gedanken||x.schritte||x.huerden);}).map(s=>{const x=stand.s[s.id];return `<p><b>${s.titel}</b><br>${x.gedanken?'Gedanken: '+esc(x.gedanken)+'<br>':''}${x.schritte?'Erste Schritte: '+esc(x.schritte)+'<br>':''}${x.huerden?'Hürden: '+esc(x.huerden):''}</p>`;}).join("")||'<p>–</p>'}</div>`;
+}
+function planNotiz(feld,wert){ stand.plan[feld]=wert; clearTimeout(notizTimer); notizTimer=setTimeout(()=>{sichern(); const g=document.getElementById('gesp_plan'); if(g){g.textContent='✓ gespeichert'; setTimeout(()=>{if(g)g.textContent='';},1500);}},400); }
+function matrixSVG(liste){
+ const W=520,H=360,L=60,T=20,R=20,B=50, w=W-L-R, h=H-T-B;
+ let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Aufwand-Wirkungs-Matrix"><rect x="${L}" y="${T}" width="${w/2}" height="${h/2}" fill="#EAF5E6"/><rect x="${L+w/2}" y="${T+h/2}" width="${w/2}" height="${h/2}" fill="#FDECEA"/>`;
+ s+=`<rect x="${L}" y="${T}" width="${w}" height="${h}" fill="none" stroke="#C9D9EC"/><line x1="${L+w/2}" y1="${T}" x2="${L+w/2}" y2="${T+h}" stroke="#C9D9EC" stroke-dasharray="4 3"/><line x1="${L}" y1="${T+h/2}" x2="${L+w}" y2="${T+h/2}" stroke="#C9D9EC" stroke-dasharray="4 3"/>`;
+ s+=`<g font-size="12" fill="#6B6B6B" font-family="Calibri,Carlito,Arial,sans-serif"><text x="${L+6}" y="${T+16}" fill="#2E8B22" font-weight="bold">Quick Wins</text><text x="${L+w-6}" y="${T+16}" text-anchor="end">große Projekte</text><text x="${L+6}" y="${T+h-8}">kleine Schritte</text><text x="${L+w-6}" y="${T+h-8}" text-anchor="end" fill="#C62828">eher zurückstellen</text>`;
+ s+=`<text x="${L+w/2}" y="${H-14}" text-anchor="middle">Aufwand → (gering · mittel · hoch)</text><text x="18" y="${T+h/2}" text-anchor="middle" transform="rotate(-90 18 ${T+h/2})">Wirkung →</text></g>`;
+ const pos={}; liste.forEach(({s:st,x})=>{ if(!x.wirkung||!x.aufwand) return; const k=x.aufwand+x.wirkung; pos[k]=(pos[k]||0)+1;
+   const cx=L+((AUFWAND[x.aufwand]-0.5)/3)*w + (pos[k]-1)*16, cy=T+h-((x.wirkung-0.5)/5)*h, r=6+(x.passung||1)*2.4;
+   s+=`<g><circle cx="${cx}" cy="${cy}" r="${r}" fill="${x.merk?'#FCCC03':'#005CA9'}" fill-opacity=".85" stroke="#fff"/><text x="${cx}" y="${cy+4}" text-anchor="middle" font-size="12">${st.icon}</text><title>${st.titel}</title></g>`; });
+ if(!Object.keys(pos).length) s+=`<text x="${L+w/2}" y="${T+h/2+4}" text-anchor="middle" font-size="14" fill="#6B6B6B" font-family="Calibri,Carlito,Arial,sans-serif">Noch keine Maßnahme mit Wirkung und Aufwand bewertet</text>`;
+ return s+`</svg>`;
+}
+function exportTextInhalt(){
+ const z=[]; const d=new Date().toLocaleDateString("de-DE");
+ z.push("SMV – Shaping My Vision · Meine Entscheidung ("+d+")","=".repeat(50),"");
+ STATIONEN.filter(s=>s.bewertbar).forEach(s=>{ const x=stand.s[s.id]||{}; const p=punktzahl(x);
+  z.push("■ "+s.titel); z.push("  Passung: "+(x.passung||"–")+"/5 · Wirkung: "+(x.wirkung||"–")+"/5 · Aufwand: "+(x.aufwand||"–")+(x.merk?" · ★ Merkliste":"")+(p!==null?" · Rang-Punkte: "+p:""));
+  if(x.gedanken) z.push("  Gedanken: "+x.gedanken.replace(/\n/g,"\n            "));
+  if(x.schritte) z.push("  Erste Schritte: "+x.schritte.replace(/\n/g,"\n            "));
+  if(x.huerden) z.push("  Hürden: "+x.huerden.replace(/\n/g,"\n            "));
+  z.push(""); });
+ ["bne"].forEach(id=>{const x=stand.s[id]; if(x&&x.gedanken){z.push("■ BNE – Gedanken: "+x.gedanken,"");}});
+ const P=stand.plan; z.push("MEIN PLAN","-".repeat(50),"Maßnahme(n): "+(P.schritt||"–"),"Wer kommt ins Boot: "+(P.wer||"–"),"Erster Schritt / bis wann: "+(P.bis||"–"),"Offene Fragen: "+(P.offen||"–"),"","Kontakt: "+KONTAKT.name+", "+KONTAKT.mail);
+ return z.join("\n");
+}
+function exportText(){ const b=new Blob([exportTextInhalt()],{type:"text/plain;charset=utf-8"}); const a=document.createElement("a"); a.href=URL.createObjectURL(b); a.download="SMV-Meine-Entscheidung.txt"; document.body.appendChild(a); a.click(); a.remove(); }
+function kopieren(){ navigator.clipboard.writeText(exportTextInhalt()).then(()=>alert("In die Zwischenablage kopiert."),()=>alert("Kopieren nicht möglich – bitte die Textdatei herunterladen.")); }
+
+/* ---------- Linksammlung ---------- */
+function seiteLinks(){
+ $("#app").innerHTML=`<div class="karte"><h2>Alle Links aus dem Vortrag</h2><p>Alle Verlinkungen der Vortragsfolien nach Stationen geordnet. Die Kurzlinks (bycs.link) aus den QR-Codes führen auf dieselben Ziele.</p>
+ ${STATIONEN.filter(s=>s.links&&s.links.length).map(s=>`<h3>${s.icon} ${s.titel}</h3><ul class="links">${s.links.map(([t,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${t}</a> <span class="klein">${u.replace(/^mailto:/,'')}</span></li>`).join("")}</ul>`).join("")}
+ </div>`;
+}
+
+/* ---------- Kontakt ---------- */
+function seiteKontakt(){
+ $("#app").innerHTML=`<div class="karte"><h2>Fragen? Melden Sie sich gerne!</h2>
+ <p class="kontakt"><b>${KONTAKT.name}</b><br>${KONTAKT.rolle}<br>✉️ <a href="mailto:${KONTAKT.mail}">${KONTAKT.mail}</a><br>☎️ <a href="tel:${KONTAKT.telHref}">${KONTAKT.tel}</a></p>
+ <div class="info">Diese Seite ergänzt den Fachvortrag mit Workshop „SMV und BNE“. Ihre Bewertungen und Notizen werden ausschließlich lokal in Ihrem Browser gespeichert und nicht übertragen.</div></div>`;
+}
+
+const SEITEN_IDS = SEITEN.map(s=>s[0]).concat(STATIONEN.map(s=>s.id));
+function ausHash(){ const h=decodeURIComponent(location.hash.slice(1)); zeige(SEITEN_IDS.includes(h)?h:"start"); }
+window.addEventListener("hashchange", ausHash);
+ausHash();
+</script>
+</body>
+</html>
